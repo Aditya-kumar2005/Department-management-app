@@ -1,29 +1,27 @@
-
 # Maven / Java
-/target/
+target/
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
 pom.xml.next
 release.properties
 dependency-reduced-pom.xml
-.mvn/wrapper/maven-wrapper.jar
 
-
+# Note: We do NOT ignore .mvn/wrapper/ because you need the properties/scripts!
+# Only ignore the jar if you want, but keeping the wrapper intact is standard.
 
 # Build directories
-/build/
-/out/
-/.gradle/
-target/
+build/
+out/
+.gradle/
 bin/
-/nbbuild/
-/dist/
-/nbdist/
+nbbuild/
+dist/
+nbdist/
 
 # Generated sources
-/generated-sources/
-/generated-test-sources/
+generated-sources/
+generated-test-sources/
 
 # IDEs
 .idea/
@@ -42,11 +40,8 @@ bin/
 .sts4-cache
 
 # NetBeans
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+nbproject/
+.nb-gradle/
 
 # VS Code
 .vscode/
@@ -70,7 +65,7 @@ node_modules/
 # Misc
 local.properties
 hs_err_pid*
-/src/main/resources/application-local.properties
-/src/main/resources/application.yml
-/src/main/resources/application.properties
+src/main/resources/application-local.properties
+src/main/resources/application.yml
+src/main/resources/application.properties
 HELP.md
